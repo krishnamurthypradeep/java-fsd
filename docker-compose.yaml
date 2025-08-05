@@ -13,8 +13,9 @@ services:
       - pgdata:/var/lib/postgresql/data
 
   app:
-    build: .
 
+    image: kpradeep/java-full-stack:latest
+    platform: linux/amd64
     container_name: java_fsd
     depends_on:
       - postgres
