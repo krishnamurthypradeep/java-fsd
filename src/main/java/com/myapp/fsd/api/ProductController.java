@@ -44,3 +44,14 @@ public class ProductController {
                 .orElseGet(() -> ResponseEntity.notFound().build());
     }
 }
+
+// CI CD
+// Version Control (Git and Github)
+// Testing (Junit)
+// CI Server (Github Actions)
+// Docker (Containerization) Dev|QA|Prod
+
+// Devops
+// CI CD
+// IAC (Terraform)
+// Monitoring (Splunk, Grafana)

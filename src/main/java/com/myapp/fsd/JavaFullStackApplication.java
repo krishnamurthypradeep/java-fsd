@@ -11,3 +11,16 @@ public class JavaFullStackApplication {
     }
 
 }
+
+
+// On every push/ pull request
+// Checkout the code
+// Set up Java
+// Builds The Jar
+// Builds Docker Image
+// Publish it to Docker Hub
+
+// Git
+// Junit
+// Maven
+// CI Server (Github Actions)
