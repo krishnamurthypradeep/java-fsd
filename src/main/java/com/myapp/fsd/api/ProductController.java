@@ -43,6 +43,12 @@ public class ProductController {
                 })
                 .orElseGet(() -> ResponseEntity.notFound().build());
     }
+    @DeleteMapping("{id}")
+    public ResponseEntity<String> deleteProduct(@PathVariable Integer   id) {
+        repository.deleteById(id);
+        return ResponseEntity.ok("Deleted");
+    }
+
 }
 
 // CI CD
